@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+body {
+    overflow-x:hidden 
+}
+
+nav{
+    background-color:#292929;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+}
+
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+nav ul{
+    list-style-type:none ;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100svh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header h2{
+    cursor: pointer;
+    font-family: "Allura";
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 200px;
+    color: #ececec;
+    margin: 0;
+    padding: 0;
+}
+
+#about{
+    height: 100svh;
+    background-color:#1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about div{
+    background-color: #ffffff;
+    padding: 100px;
+    text-align: center;
+}
+#about div h2{
+    font-size: 35px;
+    color:#1d1d1d;
+    font-family: "Allura";
+    text-align: center;
+}
+
+#about div p{
+    color: #747474;
+    max-width: 300px;
+}
+
+#wik{
+    height: fit-content;
+    text-align: center;
+    padding: 70px;
+    background-color:#181818;
+}
+
+#wik h2{
+    font-family: "Allura";
+    font-size: 35px;
+    padding: 10px;
+}
+
+#wik div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#wik div img{
+    margin:5px;
+    transition: 0.3s;
+}
+#wik div img:hover{
+    transform: scale(1.1);
+}
+
+#projects{
+    height: fit-content;
+    padding: 70px;
+    text-align: center;
+    background-color:#1b1b1b;
+}
+
+#projects h2{
+    font-family: "Allura";
+    font-size: 35px;
+    padding: 10px;
+}
+
+#projects div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+}
+.thumb{
+    width: 300px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.thumb:hover{
+    transform: scale(1.04);
+}
+#contact{
+    padding: 70px;
+    height: fit-content;
+    text-align: center;
+    background-color:#181818;
+}
+#contact h2{
+    font-family: "Allura";
+    font-size: 35px;
+    padding: 10px;
+}
+.contacts{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts li{
+    margin:0px 10px 0px 10px;
+    transition: 0.3s;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.contacts li:hover{
+    transform: scale(1.15);
+}
+@media only screen and (max-width: 600px) {
+    nav{
+        font-size: small;
+    }
+    #contact ul{
+        font-size: small;
+    }
+    header h2{
+        font-size: 90px;
+    }
+
+    #projects{
+        display: block;
+        text-align: center;
+    }
+    .thumb{
+        width: 300px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    header h2{
+        font-size: 70px;
+    }
+    .thumb{
+        width: 250px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    header h2{
+        font-size: 60px;
+    }
+    .thumb{
+        width: 200px;
+    }
+  }
