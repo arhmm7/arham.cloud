@@ -145,20 +145,20 @@ header h2{
     transform: scale(1.1);
 }
 
-#projects{
+#creations {
     height: fit-content;
     padding: 70px;
     text-align: center;
     background-color:#1b1b1b;
 }
 
-#projects h2{
+#creations h2{
     font-family: "Allura";
     font-size: 35px;
     padding: 10px;
 }
 
-#projects div{
+#creations div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
